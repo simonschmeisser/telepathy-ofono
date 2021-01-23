@@ -41,4 +41,4 @@ jobs:
            mkdir build && cd build
            cmake ../
            make -j4
-           ctest --output-on-failure
+           ctest --verbose #--output-on-failure
