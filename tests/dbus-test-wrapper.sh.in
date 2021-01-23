@@ -25,6 +25,7 @@ FORCE_RIL_NUM_MODEMS=1 MC_FILTER_PLUGIN_DIR=$TMPDIR G_MESSAGES_DEBUG=all MC_DEBU
 MC_CONTROL_PID=$!
 sleep 2
 
+mc-tool list
 mc-tool update ofono/ofono/account0 string:modem-objpath=/OfonoModem
 mc-tool reconnect ofono/ofono/account0
 
