@@ -1,7 +1,7 @@
 #!/bin/sh -x
 
 # export the home folder to somewhere in the current folder, /tmp might have no noexec set
-TMPDIR=${pwd}/tmp/tpofono_test_home
+TMPDIR=$(pwd)/tmp/tpofono_test_home
 rm -rf $TMPDIR
 export HOME=$TMPDIR
 mkdir -p $TMPDIR
