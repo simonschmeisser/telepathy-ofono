@@ -37,4 +37,4 @@ script:
  - cmake ../
  - make -j4
  - make test
- - ctest --output-on-failure
+ - ctest --verbose
